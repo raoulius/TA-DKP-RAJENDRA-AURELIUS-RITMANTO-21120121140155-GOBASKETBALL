@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 root = Tk()
 root.geometry('1920x1080')
 root.title('GoBasketball')
-root.configure(bg='#ecd8e0')
+root.configure(bg='#ecd8e1')
 
 
 def coachCheck():
@@ -42,7 +42,7 @@ def courtCheck():
     elif courtValue == 'Bulungan Court':
         timeCombo.configure(values=timeListBulC)
         courtPreviewLabel.configure(image=bulcFinal)
-    elif courtValue == 'STC Senayan':
+    elif courtValue == 'STC Senayan Keren Abis':
         timeCombo.configure(values=timeListSTC)
         courtPreviewLabel.configure(image=stcFinal)
     courtLabel.configure(text='Great court pick!')
